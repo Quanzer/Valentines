@@ -11,7 +11,9 @@ import img6 from './img/img6.JPG'
 import img7 from './img/img7.JPG'
 import img8 from './img/img8.JPG'
 import img9 from './img/cinamorollDance.gif'
+import skel from './img/skeletons.mp3'
 
+import HVW from './img/HVW.png'
 const Gallery = () => {
   
   const [currentStyle, setCurrentStyle] = useState('slider');
@@ -30,26 +32,32 @@ const Gallery = () => {
   
   return (
     <>
-    
-  
-    <div className={currentStyle} >
-      <span style = {customStyle(1)}> <img src = {img1} alt = "" onClick={toggleStyle} /> </span>
-      <span style = {customStyle(2)}> <img src = {img2} alt = "" onClick={toggleStyle}/> </span>
-      <span style = {customStyle(3)}> <img src = {img3} alt = "" onClick={toggleStyle}/> </span>
-      <span style = {customStyle(4)}> <img src = {img4} alt = "" onClick={toggleStyle}/> </span>
-      <span style = {customStyle(5)}> <img src = {img5} alt = "" onClick={toggleStyle}/> </span>
-      <span style = {customStyle(6)}> <img src = {img6} alt = "" onClick={toggleStyle}/> </span>
-      <span style = {customStyle(7)}> <img src = {img7} alt = "" onClick={toggleStyle}/> </span>
-      <span style = {customStyle(8)}> <img src = {img8} alt = "" onClick={toggleStyle}/> </span>
-      
-      <div >
-       <img style = {{marginTop :"-75%",marginLeft :"-35%"}} src = {img9} alt = "Animated GIF"/>
+    <div >
+       <img style = {{display: "flex",marginBottom: "5%",marginTop: "-65%",marginLeft :"0"}} src = {img9} alt = "Animated GIF"/>
     
     </div>
    
+    <div style = {{marginLeft: "5vw", display: "flex"}} className={currentStyle} >
+      <span style = {customStyle(1)}> <img className="zoom" src = {img1} alt = "" onClick={toggleStyle} /> </span>
+      <span style = {customStyle(2)}> <img className="zoom" src = {img2} alt = "" onClick={toggleStyle}/> </span>
+      <span style = {customStyle(3)}> <img className="zoom" src = {img3} alt = "" onClick={toggleStyle}/> </span>
+      <span style = {customStyle(4)}> <img className="zoom" src = {img4} alt = "" onClick={toggleStyle}/> </span>
+      <span style = {customStyle(5)}> <img className="zoom" src = {img5} alt = "" onClick={toggleStyle}/> </span>
+      <span style = {customStyle(6)}> <img className="zoom" src = {img6} alt = "" onClick={toggleStyle}/> </span>
+      <span style = {customStyle(7)}> <img className="zoom" src = {img7} alt = "" onClick={toggleStyle}/> </span>
+      <span style = {customStyle(8)}> <img className="zoom" src = {img8} alt = "" onClick={toggleStyle}/> </span>
+      
+      
+  
       
     </div>
-
+    <div >
+    
+    </div>
+    <audio controls loop autoPlay>
+        <source src= {skel} type="audio/mpeg" />
+        
+      </audio>
     </>
   );
 };
