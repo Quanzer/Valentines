@@ -29,6 +29,18 @@ const Gallery = () => {
       // Add more custom properties if needed
     };
   };
+  const [isPlaying, setIsPlaying] = useState(false);
+  const audioRef = React.createRef();
+
+  const togglePlayback = () => {
+    setIsPlaying(!isPlaying);
+    if (isPlaying) {
+      audioRef.current.pause();
+    } else {
+      audioRef.current.play();
+    }
+  };
+  
   
   return (
     <>
@@ -50,11 +62,14 @@ const Gallery = () => {
       
   
       
+    </div >
+    <div style = {{position: "absolute", bottom:0, marginLeft :"-7vw", marginBottom: "5vh",display: "flex", height: 60 * .527+ 'vh', width: 60 * .843 + 'vh'}}>
+    
+    <img  onClick={togglePlayback}   src = {HVW} alt = "" /> 
+    
     </div>
-    <div >
-    <img   style = {{position: "absolute", bottom:0, marginLeft :"-5vw", marginBottom: "-3vh",display: "flex", height: 60 * .527+ 'vh', width: 60 * .843 + 'vh'}} src = {HVW} alt = "" /> 
-    </div>
-    <audio controls loop autoPlay>
+    <audio ref={audioRef} loop>
+        
         <source src= {skel} type="audio/mpeg" />
         
       </audio>
