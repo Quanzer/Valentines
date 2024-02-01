@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/ValentinesImageGallery/static/css/main.72bf3e35.css",
-    "main.js": "/ValentinesImageGallery/static/js/main.cf7b050e.js",
-    "static/js/787.85ed0918.chunk.js": "/ValentinesImageGallery/static/js/787.85ed0918.chunk.js",
-    "static/media/img2.JPG": "/ValentinesImageGallery/static/media/img2.d61fde4bec3080ee14c5.JPG",
-    "static/media/img8.JPG": "/ValentinesImageGallery/static/media/img8.e85b49307c76f70142a2.JPG",
-    "static/media/img3.JPG": "/ValentinesImageGallery/static/media/img3.a6e5d3996ee8afd76be9.JPG",
-    "static/media/img4.JPG": "/ValentinesImageGallery/static/media/img4.3bd17c688c1c2e934924.JPG",
-    "static/media/img7.JPG": "/ValentinesImageGallery/static/media/img7.b09c1c6a5996a23a7aa1.JPG",
-    "static/media/img1.JPG": "/ValentinesImageGallery/static/media/img1.ae7d5448ca1ea45d9a5b.JPG",
-    "static/media/img5.JPG": "/ValentinesImageGallery/static/media/img5.e438541b8cf943b33e8b.JPG",
-    "static/media/img6.JPG": "/ValentinesImageGallery/static/media/img6.bd1ca95b91efdec5ea11.JPG",
-    "static/media/img9.JPG": "/ValentinesImageGallery/static/media/img9.ad88bc2f9f988e919ba8.JPG",
-    "static/media/logo.svg": "/ValentinesImageGallery/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/ValentinesImageGallery/index.html",
-    "main.72bf3e35.css.map": "/ValentinesImageGallery/static/css/main.72bf3e35.css.map",
-    "main.cf7b050e.js.map": "/ValentinesImageGallery/static/js/main.cf7b050e.js.map",
-    "787.85ed0918.chunk.js.map": "/ValentinesImageGallery/static/js/787.85ed0918.chunk.js.map"
+    "main.css": "/Valentines/static/css/main.d963af9d.css",
+    "main.js": "/Valentines/static/js/main.7a5cce62.js",
+    "static/js/787.85ed0918.chunk.js": "/Valentines/static/js/787.85ed0918.chunk.js",
+    "static/media/img2.JPG": "/Valentines/static/media/img2.d61fde4bec3080ee14c5.JPG",
+    "static/media/img8.JPG": "/Valentines/static/media/img8.e85b49307c76f70142a2.JPG",
+    "static/media/img3.JPG": "/Valentines/static/media/img3.a6e5d3996ee8afd76be9.JPG",
+    "static/media/img4.JPG": "/Valentines/static/media/img4.3bd17c688c1c2e934924.JPG",
+    "static/media/img7.JPG": "/Valentines/static/media/img7.b09c1c6a5996a23a7aa1.JPG",
+    "static/media/img1.JPG": "/Valentines/static/media/img1.ae7d5448ca1ea45d9a5b.JPG",
+    "static/media/img5.JPG": "/Valentines/static/media/img5.e438541b8cf943b33e8b.JPG",
+    "static/media/img6.JPG": "/Valentines/static/media/img6.bd1ca95b91efdec5ea11.JPG",
+    "static/media/img9.JPG": "/Valentines/static/media/img9.ad88bc2f9f988e919ba8.JPG",
+    "static/media/logo.svg": "/Valentines/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Valentines/index.html",
+    "main.d963af9d.css.map": "/Valentines/static/css/main.d963af9d.css.map",
+    "main.7a5cce62.js.map": "/Valentines/static/js/main.7a5cce62.js.map",
+    "787.85ed0918.chunk.js.map": "/Valentines/static/js/787.85ed0918.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72bf3e35.css",
-    "static/js/main.cf7b050e.js"
+    "static/css/main.d963af9d.css",
+    "static/js/main.7a5cce62.js"
   ]
 }
