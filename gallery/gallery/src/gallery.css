@@ -5,7 +5,7 @@
 }
 
 body{
-    background: linear-gradient(to right, #FFC0CB, #d6428c);
+    
     height: 100vh;
     display: flex;
     align-items: center;
@@ -14,6 +14,7 @@ body{
 
 
 }
+
 .slider{
     position: relative;
     width: 200px;
@@ -85,31 +86,3 @@ body{
     object-fit: cover;
     transition: s;
 }
-
-/* .gallery .pics{
-    -webkit-transition: all 350ms ease;
-    transition: all 350ms ease;
-    cursor: pointer;
-    margin-bottom: 12px;
-}
-.gallery .pics:hover{
-    filter: opacity(.8);
-}
-@media (max-width: 991px){
-    .gallery{
-        -webkit-column-count: 2;
-        -moz-column-count: 2;
-        column-count: 2;
-        
-    }
-}
-@media (max-width: 480px){
-    .gallery{
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
-        -webkit-column-width: 100%;
-        -moz-column-width: 100%;
-        column-width: 100%;
-    }
-} */

@@ -13,6 +13,7 @@ import img8 from './img/img8.JPG'
 import img9 from './img/cinamorollDance.gif'
 
 const Gallery = () => {
+  
   const [currentStyle, setCurrentStyle] = useState('slider');
   const getImg = (imgSrc) =>{
     console.warn(imgSrc)
@@ -26,27 +27,29 @@ const Gallery = () => {
       // Add more custom properties if needed
     };
   };
+  
   return (
     <>
     
-    
-    <div class={currentStyle} onClick={toggleStyle}>
-      <span style = {customStyle(1)}> <img src = {img1} alt = ""/> </span>
-      <span style = {customStyle(2)}> <img src = {img2} alt = ""/> </span>
-      <span style = {customStyle(3)}> <img src = {img3} alt = ""/> </span>
-      <span style = {customStyle(4)}> <img src = {img4} alt = ""/> </span>
-      <span style = {customStyle(5)}> <img src = {img5} alt = ""/> </span>
-      <span style = {customStyle(6)}> <img src = {img6} alt = ""/> </span>
-      <span style = {customStyle(7)}> <img src = {img7} alt = ""/> </span>
-      <span style = {customStyle(8)}> <img src = {img8} alt = ""/> </span>
+  
+    <div className={currentStyle} >
+      <span style = {customStyle(1)}> <img src = {img1} alt = "" onClick={toggleStyle} /> </span>
+      <span style = {customStyle(2)}> <img src = {img2} alt = "" onClick={toggleStyle}/> </span>
+      <span style = {customStyle(3)}> <img src = {img3} alt = "" onClick={toggleStyle}/> </span>
+      <span style = {customStyle(4)}> <img src = {img4} alt = "" onClick={toggleStyle}/> </span>
+      <span style = {customStyle(5)}> <img src = {img5} alt = "" onClick={toggleStyle}/> </span>
+      <span style = {customStyle(6)}> <img src = {img6} alt = "" onClick={toggleStyle}/> </span>
+      <span style = {customStyle(7)}> <img src = {img7} alt = "" onClick={toggleStyle}/> </span>
+      <span style = {customStyle(8)}> <img src = {img8} alt = "" onClick={toggleStyle}/> </span>
       
-      <div className="gif-container">
-       <img style = {{marginTop :"-12vh",marginLeft :"-5vw"}} src = {img9} alt = "Animated GIF"/>
+      <div >
+       <img style = {{marginTop :"-75%",marginLeft :"-35%"}} src = {img9} alt = "Animated GIF"/>
     
     </div>
    
       
     </div>
+
     </>
   );
 };
