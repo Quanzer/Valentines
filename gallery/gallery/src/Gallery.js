@@ -52,7 +52,7 @@ const Gallery = () => {
       
     </div>
     <div >
-    
+    <img   style = {{position: "absolute", bottom:0, marginLeft :"-5vw", marginBottom: "-3vh",display: "flex", height: 60 * .527+ 'vh', width: 60 * .843 + 'vh'}} src = {HVW} alt = "" /> 
     </div>
     <audio controls loop autoPlay>
         <source src= {skel} type="audio/mpeg" />
