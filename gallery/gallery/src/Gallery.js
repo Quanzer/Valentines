@@ -1,6 +1,6 @@
 // src/Gallery.js
 import React, { useState,useEffect} from 'react';
-import SimplePopup from './SimplePopup';
+
 import { Unstable_Popup as BasePopup } from '@mui/base/Unstable_Popup';
 import { styled } from '@mui/system';
 import './gallery.css'
