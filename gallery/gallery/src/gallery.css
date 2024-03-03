@@ -18,6 +18,7 @@ body{
 audio { display:none;}
 
 
+
 .slider{
     position: relative;
     width: 200px;
@@ -37,10 +38,10 @@ audio { display:none;}
 
 @keyframes rotate{
     0%{
-        transform:perspective(1000px) rotateY(0deg);
+        transform:perspective(1000px) rotateY(360deg);
     }
     100%{
-        transform:perspective(1000px) rotateY(360deg);
+        transform:perspective(1000px) rotateY(0deg);
     }
 }
 .slider span{
