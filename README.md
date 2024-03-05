@@ -8,6 +8,8 @@ This project is a special Valentine's Day surprise for my girlfriend. It's a Rea
   
 - **Interactive Textbox:** Clicking on each image reveals a textbox containing your feelings and memories for that specific picture. It adds a personal touch to each moment captured.
 
+- **Responsive Design:** The website is optimized for both desktop and mobile views, ensuring a seamless and enjoyable experience across different devices.
+
 ## How to Use:
 
 1. **Clone Repository:**
