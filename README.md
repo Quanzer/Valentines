@@ -50,9 +50,6 @@ This project is a special Valentine's Day surprise for my girlfriend. It's a Rea
 
 This project was created with love by Quan Nguyen.
 
-## License:
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
