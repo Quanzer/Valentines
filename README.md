@@ -1,4 +1,4 @@
-# Valentine's Day Surprise Project - React Website (([Website](https://quanzer.github.io/Valentines))
+# Valentine's Day Surprise Project - React Website ([Website](https://quanzer.github.io/Valentines))
 
 This project is a special Valentine's Day surprise for my girlfriend. It's a React website that showcases 8 images of both of you together. When you click on each image, a textbox appears, revealing your heartfelt feelings and memories associated with that particular picture. It also has a little interactive Cinamoroll ([Sanrio](https://www.sanrio.com/)
  character) that plays her favorite song when clicked.
