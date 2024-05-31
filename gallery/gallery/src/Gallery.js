@@ -6,17 +6,17 @@ import { styled } from '@mui/system';
 import './gallery.css'
 import { Slide,  Zoom } from '@mui/material';
 
-import img1 from './img/img1.JPG'
-import img2 from './img/img2.JPG'
-import img3 from './img/img3.JPG'
-import img4 from './img/img4.JPG'
-import img5 from './img/img5.JPG'
-import img6 from './img/img6.JPG'
-import img7 from './img/img7.JPG'
-import img8 from './img/img8.JPG'
+import img1 from './img/img1.png'
+import img2 from './img/img2.png'
+import img3 from './img/img3.png'
+import img4 from './img/img4.png'
+import img5 from './img/img5.png'
+import img6 from './img/img6.png'
+import img7 from './img/img7.png'
+import img8 from './img/img8.png'
 import cGIF from './img/cinamorollDance.gif'
 import cStill from './img/cinStill.png'
-import skel from './img/skeletons.mp3'
+import skel from './img/songName.mp3'
 
 import HVW from './img/HVW.png'
 const Gallery = () => {
@@ -30,35 +30,31 @@ const Gallery = () => {
   const toggleStyle =  (event, index) => {
     switch (index) {
     case 1:
-      setText("03/28/2023. "+
-      "Where it all started, one of our first dates,  and the one of the first moments I started to realize my love for you :).  I remember thinking that day how did you even end up still like me when I was acting the way I was before I knew you liked me."+
-      "I tried pushing away my feelings for you before becausae I did not know how you felt, but you made it extremely easy to fall for you again with your kindness, love, and beauty 🤭.");
+      setText("03/28/2023. EXAMPLE TEXT (write something romantic for your partner/ something for your loved one) ");
       break;
     case 2:
-      setText("07/01/2023. Remember when we were in the car 👀 and your NorCal friends called you and you wanted me to talk to them, then they suddenly wanted to go to VEGAS. This was still about a month before this picture was taken and it was still early but you wanted me to go. I was a little hesitant but I ended up loving my time in Vegas. I remember one of your friends saying 'Idk how YOUR girl got us into this club, shes is awesome' and I thought to myself that you were pretty amazing and how your friends already viewed us as a couple. We were also the only couple to share a single room together, which I thought was really exciting and cool, ty for that :).");
+      setText("07/01/2023. EXAMPLE TEXT (write something romantic for your partner/ something for your loved one) ");
       break;
     case 3:
-      setText("08/16/2023. Despite a day tinged with my sneezing, every moment spent with you here feels like a fairytale come true. From scoring discounted tickets through my sister's friend to wandering hand in hand through Disney's magical world, every laugh, every shared glance, and every thrilling ride was a testament to our love's resilience. As we watched the fireworks light up the night sky, your presence made everything feel enchanting. Together, we explored every corner, tried every delectable treat, and dared every exhilarating ride, creating memories that will forever sparkle like the stars above. With you, every moment is a cherished adventure, and I'm endlessly grateful for the magic you bring into my life.");
+      setText("08/16/2023. EXAMPLE TEXT (write something romantic for your partner/ something for your loved one) ");
       break;
     case 4:
-      setText("08/26/2023. Our first rave together and when I met your riverside friends for the first time. Amidst the rolling, I shared my heart's desires, asking if I could meet your family, only to be met with: why haven't I asked you out officially yet? 💞 In that instant, surrounded by the raving crowd of SLANDER, I knew the time was right. I never told you why I took so long but I was dealing with my own emotions about if I felt ready or not to commit to a relationship but that night it made me realize that I shouldn't wait any longer. And so, a week later, in the warmth of our shared love, I asked you to be my girlfriend, and the rest was history 🌟.");
+      setText("08/26/2023. EXAMPLE TEXT (write something romantic for your partner/ something for your loved one) ");
       break;
     case 5:
-      setText("09/03/2023. Captured in  lights and delectable aromas of the 626 Night Market, this was the where it all started (again). Together, we navigated through vulnerable conversations, sharing our deepest feelings and desires. And in that moment of shared vulnerability, I realized that love knows no bounds. 🌹 We were talking about our feelings and made a decision together—to delete Hinge, symbolizing our commitment to each other. I asked you to be my girlfriend officially right when I saw you this day, knowing that with you, I have found my home and my heart's truest desire. 💫");
+      setText("09/03/2023. EXAMPLE TEXT (write something romantic for your partner/ something for your loved one) ");
       break;
     case 6:
-      setText("10/02/2023. This was a magical night, as we ventured back to the city of Riverside for lavender nights and walked around for a few hours. This was one of the least expensive dates yet it is one of my favorites, I loved just walking around and looking at lights with you and eating the overly salted fries that we bought 😆."
-      + "The pictures we took this night were also some of my all time favorites. I found myself captivated not just by the delicate blooms surrounding us, but by the ethereal beauty of the person beside me. 💜 ");
+      setText("10/02/2023. EXAMPLE TEXT (write something romantic for your partner/ something for your loved one) ");
       break;
     case 7:
-      setText("01/01/2024. On the last night of Decadence, surrounded by the rave lights, we welcomed the new year with hearts overflowing with love and joy. 🎉 I introduced you for the first time to Vinh and Danny for the first time, and this was a big moment for me as those are two of my closest friends and family members, and I was so happy when they liked you and vice versa. This was also one of my favorite moments of us together as we grew to trust each other more and be honest with each other." 
-      + "I'm so lucky to have you in my life.");
+      setText("01/01/2024. EXAMPLE TEXT (write something romantic for your partner/ something for your loved one) ");
       break;
     case 8:
-      setText("01/27/2024. In the dazzling lights of our second trip to Vegas, amidst the hours of walking and burning feet, our bond only grew stronger. 🎲 Sharing the excitement of Sin City with my closest friends, I watched happily as you effortlessly connected with them and their girlfriends. 💖 Seeing you laugh and share moments with my friend group brought me immense joy, knowing that you were not just my partner, but an integral part of my life and friendships. Every moment spent with you is a testament to your beauty, both inside and out, and I am endlessly grateful to have you by my side, my radiant beacon of love and light. 🌟 You mean the world to me and I love you.");
+      setText("01/27/2024. EXAMPLE TEXT (write something romantic for your partner/ something for your loved one) ");
       break;
     default:
-      setText("You're special to me");
+      setText("EXAMPLE TEXT (write something romantic for your partner/ something for your loved one) ");
   }
 
     

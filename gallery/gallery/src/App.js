@@ -33,7 +33,7 @@ function App() {
     setOpen(false);
   }
   const [text] = useTypewriter({
-    words: ['Hey Wynne, I know Im not the best when it comes to putting my feelings into words, but I wanted to share this with you. I hope you like it :) (Click on each photo when ur in).'],
+    words: ['Hey (NAME OF SPECIAL PERSON), I know Im not the best when it comes to putting my feelings into words, but I wanted to share this with you. I hope you like it :) (Click on each photo when ur in).'],
    
     typeSpeed: 50,
     deleteSpeed: 80,
