@@ -1,29 +1,21 @@
 {
   "files": {
     "main.css": "/Valentines/static/css/main.f37afd2f.css",
-    "main.js": "/Valentines/static/js/main.32722abe.js",
+    "main.js": "/Valentines/static/js/main.9312e532.js",
     "static/js/787.5257f46d.chunk.js": "/Valentines/static/js/787.5257f46d.chunk.js",
+    "static/media/songName.mp3": "/Valentines/static/media/songName.9b2f7e20c435af701bcb.mp3",
     "static/media/bg.jpg": "/Valentines/static/media/bg.8b59967062ce3372ed06.jpg",
-    "static/media/skeletons.mp3": "/Valentines/static/media/skeletons.a82de9af0903ff85f2d7.mp3",
-    "static/media/img6.JPG": "/Valentines/static/media/img6.b925ddf50009de15b609.JPG",
-    "static/media/img3.JPG": "/Valentines/static/media/img3.ee59ecade179f4df9396.JPG",
-    "static/media/img5.JPG": "/Valentines/static/media/img5.f5dfca473553bd4576d9.JPG",
-    "static/media/img4.JPG": "/Valentines/static/media/img4.3e998018315bce68b07f.JPG",
-    "static/media/img2.JPG": "/Valentines/static/media/img2.6ee35aebbdb6830523bf.JPG",
-    "static/media/img7.JPG": "/Valentines/static/media/img7.b09c1c6a5996a23a7aa1.JPG",
-    "static/media/img1.JPG": "/Valentines/static/media/img1.f5ba618040adfbfe9986.JPG",
-    "static/media/img8.JPG": "/Valentines/static/media/img8.c4439eccdbae9dd50235.JPG",
     "static/media/cinStill.png": "/Valentines/static/media/cinStill.87eceb80b6eaf873ff75.png",
     "static/media/cinamorollDance.gif": "/Valentines/static/media/cinamorollDance.b0c8acfbbea4e663227d.gif",
     "static/media/HVW.png": "/Valentines/static/media/HVW.de9f9cd7ebfffcf9c58c.png",
     "static/media/logo.svg": "/Valentines/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Valentines/index.html",
     "main.f37afd2f.css.map": "/Valentines/static/css/main.f37afd2f.css.map",
-    "main.32722abe.js.map": "/Valentines/static/js/main.32722abe.js.map",
+    "main.9312e532.js.map": "/Valentines/static/js/main.9312e532.js.map",
     "787.5257f46d.chunk.js.map": "/Valentines/static/js/787.5257f46d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f37afd2f.css",
-    "static/js/main.32722abe.js"
+    "static/js/main.9312e532.js"
   ]
 }
