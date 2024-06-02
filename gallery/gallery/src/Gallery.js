@@ -50,6 +50,7 @@ const Gallery = () => {
     case 7:
       setText("01/01/2024. EXAMPLE TEXT (write something romantic for your partner/ something for your loved one) ");
       break;
+      
     case 8:
       setText("01/27/2024. EXAMPLE TEXT (write something romantic for your partner/ something for your loved one) ");
       break;
