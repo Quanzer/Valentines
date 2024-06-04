@@ -5,7 +5,7 @@ This project is a special Valentine's Day surprise for my girlfriend. It's a Rea
 
 ## Features:
 
-- **Image Rotation:** The website rotates through 8 images of you and your girlfriend together, creating a nostalgic journey through your memories.
+- **Image Rotation:** The website rotates through 8 images of you and your loved one together, creating a nostalgic journey through your memories.
   
 - **Interactive Textbox:** Clicking on each image reveals a textbox containing your feelings and memories for that specific picture. It adds a personal touch to each moment captured.
 
